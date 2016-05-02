@@ -19,7 +19,7 @@ import Foundation
 }
 
 // Obj-c wrapper for XCGLogger
-public class XCGLogWrapper: NSObject {
+@objc public class XCGLogWrapper: NSObject {
     
     public static func log(level: LogLevel, functionName: String, fileName: String, lineNumber: Int, logMessage: String) {
         let log = XCGLogger.defaultInstance()
