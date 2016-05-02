@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270F780E1CD7E405002C5079 /* XCGLogWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270F780D1CD7E405002C5079 /* XCGLogWrapper.swift */; };
+		270F780F1CD7E405002C5079 /* XCGLogWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270F780D1CD7E405002C5079 /* XCGLogWrapper.swift */; };
+		270F78101CD7E405002C5079 /* XCGLogWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270F780D1CD7E405002C5079 /* XCGLogWrapper.swift */; };
+		270F78111CD7E405002C5079 /* XCGLogWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270F780D1CD7E405002C5079 /* XCGLogWrapper.swift */; };
 		554DF41019D76FA9005708BE /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DF40F19D76FA9005708BE /* XCGLogger.swift */; };
 		554DF43319D77155005708BE /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DF40F19D76FA9005708BE /* XCGLogger.swift */; };
 		557C47E41BA125F800C9A174 /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DF40F19D76FA9005708BE /* XCGLogger.swift */; };
@@ -39,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		270F780D1CD7E405002C5079 /* XCGLogWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCGLogWrapper.swift; sourceTree = "<group>"; };
 		5515A3DF1BA119FA0047BA31 /* XCGLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCGLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		554DF40F19D76FA9005708BE /* XCGLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCGLogger.swift; sourceTree = "<group>"; };
 		554DF41719D76FE7005708BE /* XCGLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCGLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +109,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		270F780C1CD7E3E1002C5079 /* ObjC Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				270F780D1CD7E405002C5079 /* XCGLogWrapper.swift */,
+			);
+			name = "ObjC Wrapper";
+			sourceTree = "<group>";
+		};
 		55DA396419D7737B0032F026 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +169,7 @@
 		55E3EE4719D76F280068C3A7 /* XCGLogger */ = {
 			isa = PBXGroup;
 			children = (
+				270F780C1CD7E3E1002C5079 /* ObjC Wrapper */,
 				55DA396419D7737B0032F026 /* iOS */,
 				55DA396619D7737B0032F026 /* OSX */,
 				55E37F5F1BFC648800392B9C /* tvOS */,
@@ -433,6 +447,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				557C47E41BA125F800C9A174 /* XCGLogger.swift in Sources */,
+				270F78111CD7E405002C5079 /* XCGLogWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +456,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				554DF43319D77155005708BE /* XCGLogger.swift in Sources */,
+				270F780F1CD7E405002C5079 /* XCGLogWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +473,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				554DF41019D76FA9005708BE /* XCGLogger.swift in Sources */,
+				270F780E1CD7E405002C5079 /* XCGLogWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +490,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70CB94181B99E728007802FF /* XCGLogger.swift in Sources */,
+				270F78101CD7E405002C5079 /* XCGLogWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
