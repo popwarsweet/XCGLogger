@@ -11,6 +11,10 @@
 		270F780F1CD7E405002C5079 /* XCGLogWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270F780D1CD7E405002C5079 /* XCGLogWrapper.swift */; };
 		270F78101CD7E405002C5079 /* XCGLogWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270F780D1CD7E405002C5079 /* XCGLogWrapper.swift */; };
 		270F78111CD7E405002C5079 /* XCGLogWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270F780D1CD7E405002C5079 /* XCGLogWrapper.swift */; };
+		270F78121CD7EAEF002C5079 /* XCGLogWrapper.swift in Headers */ = {isa = PBXBuildFile; fileRef = 270F780D1CD7E405002C5079 /* XCGLogWrapper.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		270F78131CD7EAFB002C5079 /* XCGLogWrapper.swift in Headers */ = {isa = PBXBuildFile; fileRef = 270F780D1CD7E405002C5079 /* XCGLogWrapper.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		270F78141CD7EB02002C5079 /* XCGLogWrapper.swift in Headers */ = {isa = PBXBuildFile; fileRef = 270F780D1CD7E405002C5079 /* XCGLogWrapper.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		270F78151CD7EB08002C5079 /* XCGLogWrapper.swift in Headers */ = {isa = PBXBuildFile; fileRef = 270F780D1CD7E405002C5079 /* XCGLogWrapper.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		554DF41019D76FA9005708BE /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DF40F19D76FA9005708BE /* XCGLogger.swift */; };
 		554DF43319D77155005708BE /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DF40F19D76FA9005708BE /* XCGLogger.swift */; };
 		557C47E41BA125F800C9A174 /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DF40F19D76FA9005708BE /* XCGLogger.swift */; };
@@ -211,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55E37F621BFC64C600392B9C /* XCGLogger.h in Headers */,
+				270F78151CD7EB08002C5079 /* XCGLogWrapper.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55DA396B19D7737B0032F026 /* XCGLogger.h in Headers */,
+				270F78131CD7EAFB002C5079 /* XCGLogWrapper.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55DA396819D7737B0032F026 /* XCGLogger.h in Headers */,
+				270F78121CD7EAEF002C5079 /* XCGLogWrapper.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70C0D5C01B99EAFC00C4F3BA /* XCGLogger.h in Headers */,
+				270F78141CD7EB02002C5079 /* XCGLogWrapper.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
